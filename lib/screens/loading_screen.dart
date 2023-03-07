@@ -31,7 +31,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   // NOTE : No.8 - API를 통한 Web Data 가져오기
   void getData() async {
-    String apiKey = "901860e65a73d3611ab4ff7f4dc0355d";
+    String apiKey = "c03d";
     String strUri =
         "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=$apiKey";
     var url = Uri.parse(strUri);
